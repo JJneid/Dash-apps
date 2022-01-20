@@ -12,7 +12,7 @@ app.layout = html.Div([
     html.H2('Who are you??'),
     html.Div([    dcc.Dropdown(
             id='dropdown_name',
-            options=[{'label': i, 'value': i} for i in ['Elsa', 'Ralph', 'Maria']],
+            options=[{'label': i, 'value': i} for i in ['Elsa', 'Ralph', 'Maria',"Bruno"]],
             value='Maria'
         )]),
     html.H2(id='display-name-value'),
